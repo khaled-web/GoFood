@@ -1,0 +1,150 @@
+/* :root {
+  --mainWhite: #f5f5f5;
+  --mainDark: #333333;
+  --mainRed: #c92332;
+}
+body {
+  background: var(--mainWhite);
+  color: var(--mainDark);
+}
+.redBtn {
+  border-color: var(--mainRed);
+  color: var(--mainRed);
+  background: transparent;
+}
+.redText {
+  color: var(--mainRed);
+}
+.redBtn:hover {
+  background: var(--mainRed);
+  color: var(--mainDark);
+}
+.form-control {
+  border-color: var(--mainRed);
+}
+.feedback {
+  display: none;
+}
+.loader {
+  margin: 0 auto;
+  display: none;
+}
+.card p {
+  font-size: 0.7rem;
+}
+.showItem {
+  display: block;
+} */
+
+.jumbotron-billboard .img {
+  margin-bottom: 0px;
+  opacity: 0.7;
+  color: #fff;
+  background: #000 url("https://cdn.fstoppers.com/styles/full/s3/media/2017/09/11/autumn_food_photography_0.jpg") top center no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.jumbotron h2 {
+  margin-top: 0;
+}
+
+.jumbotron {
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.jumbotron .container {
+  position: relative;
+  z-index: 2;
+}
+
+@media screen and (max-width: 768px) {
+  .jumbotron {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+.text-color {
+  color: white;
+}
+
+.pt {
+  padding-top: 75px;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+}
+
+.data {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #F5F5F5;
+}
+
+a.action_link {
+  text-decoration: none;
+}
+
+.resimg {
+  float: left;
+  margin-right: 15px;
+}
+
+body {
+  background-image: url("https://image.ibb.co/fqkgMw/dust_scratches.png");
+}
+
+.horizontal-center-row {
+  display: flex;
+  justify-content: center;
+}
+
+.rating {
+  float: right;
+  margin-right: 15px;
+}
+
+.middle{
+  display: grid;
+  grid-template-columns: 2fr 2fr .5fr;
+  column-gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#getText{
+  height: 3rem;
+}
+
+#getMessage{
+  height: 3rem;
+}
+
+hr{
+  width: 50%;
+}
+
+.text-center a{
+  text-decoration: none;
+  color: black;
+  opacity: .5;
+  transition: all .5s linear;
+}
+
+.text-center a:hover{
+  opacity: 1;
+}
+

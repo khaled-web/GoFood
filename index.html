@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- main css -->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+		<!-- favicon -->
+		<link rel="shortcut icon" href="./css/favicon.ico" type="image/x-icon">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="css/all.css">
+  <title>GoFood</title>
+  <style>
+  </style>
+</head>
+
+<body>
+<div class="jumbotron jumbotron-billboard text-center">
+	<div class="img"></div>
+	<div class="container pt">
+		<div class="text-center">
+			<img class="logo" src='http://image.ibb.co/g52Ayb/Go_Food_2.png' />
+		</div>
+		<div class="mt-5 text-color">
+			<h1>Find the best Restaurants</h1>
+		</div>
+		<div class="row mx-auto well col-lg-12 mt-5 middle">
+			<div class="col-xs-4 pr-0">
+				<select id="select_id" class="form-control form-control-lg">
+					<option value="Select City" hidden>Select City</option>
+					<option value="4">Beirut</option>
+					<option value="3" >Damascus</option>
+					<option value="1">Quds</option>
+					<option value="6">Muscat</option>
+					<option value="5">dubai</option>
+          <option value="5">Cairo</option>
+				</select>
+			</div>
+			<div class="col-xs-6 pl-0 pr-0">
+				<input id="getText" type="text" class="form-control" placeholder="I Want To Eat...">
+				</div>
+				<button id = "getMessage" class = "btn btn-success col-xs-2">Search</button>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div>
+			<div class = "message col-md-12"></div>
+		</div>
+	</div>
+	<hr>
+		<h5 class="text-center">
+      Written and coded by
+      <a target="_blank" href="https://www.linkedin.com/in/khaled-mohamed-398a37127/">khaled mohamed.</a>
+		</h5>
+
+
+  <!-- jquery -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- script js -->
+  <script src="js/app.js"></script>
+</body>
+
+</html>
